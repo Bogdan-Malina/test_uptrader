@@ -32,6 +32,11 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+Собрать статические файлы в STATIC_ROOT:
+```
+python manage.py collectstatic
+```
+
 Выполнить миграции:
 
 ```
